@@ -1,0 +1,42 @@
+.main{
+    height: 700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(3,auto);
+    gap: 10px;
+
+}
+.a1{
+    background-color:green;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.a2{
+    background-color:green;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.a3{
+    background-color: red;
+}
+.a4{
+    background-color:yellow;
+}
+.a5{
+    background-color:red;  
+
+}
+.a6{
+    background-color:green;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column: 4;
+    grid-column-end: 5;
+}
+.a7{
+    background-color:red;
+}
+.a8{
+    background-color: yellow;
+}
